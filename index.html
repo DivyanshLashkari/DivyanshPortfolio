@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=FontName&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lazord+Sans+Sans:wght@400;700&display=swap"
+    />
+
+    <style>
+      body {
+        margin: 0;
+      }
+
+    
+
+      .container {
+        display: grid;
+        grid-template-columns: 0.75fr 2fr;
+      }
+
+      .grid-1 {
+        background-color: #ebd596;
+        padding: 20px;
+        text-align: center;
+        height: 100vh;
+        display: flex;
+
+        justify-content: center;
+      }
+
+      .grid-2 {
+        background-color: #ebbe96;
+        padding: 20px;
+        text-align: center;
+        display: flex;
+      }
+
+      .circle-img {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        background-color: #ebbe96;
+        position: relative;
+        top: 75px;
+      }
+
+      .circle-img img {
+        width: 150px;
+        height: 350px;
+        object-fit: cover;
+      }
+
+      .grid-2 p {
+        top: 200px;
+        position: relative;
+        bottom: 500px;
+        font-family: "Lazord Sans Sans", sans-serif;
+        color: white;
+        font-weight: bold;
+        text-align: left;
+        padding-left: 100px;
+        margin-top: 50px;
+      }
+
+      h1 {
+        top: 150px;
+        position: relative;
+
+        font-family: "Lazord Sans Sans", sans-serif, sans-serif;
+        text-align: left;
+        padding-left: 100px;
+        color: white;
+      }
+      .link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        color: #fff;  
+        background-color: #3498db;  
+        border-radius: 30px; 
+        padding: 10px 20px; 
+        margin: 10px;  
+        font-size: 16px;  
+        width: 150px;  
+        text-align: center;  
+        transition: background-color 0.3s ease; 
+      }
+
+      .link:hover {
+        background-color: #2980b9; /* Change the background color on hover */
+      }
+      
+      .Achievements {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 480px;
+        float: right;
+        bottom: 250px;
+        text-align: left;
+        border: 2px solid #ebd596;
+        
+        height: auto;
+        width: auto;
+        font-family: "Lazord Sans Sans", sans-serif, sans-serif;
+        
+      }
+
+      .Achievements ol li{
+        position: relative;
+        margin-right: 5px;
+        
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <section id="page-1" class="page-1">
+      <div class="container">
+        <div class="grid-1">
+          <div class="circle-img">
+            <img
+              src="./Screenshot_2024-01-07_162830-removebg-preview.png"
+              alt=""
+            />
+            <a href="./personalProjects.html" class="link">Personal Projects</a>
+            <a href="https://drive.google.com/file/d/1BPHJ8eVyk0ORUO0IXkVv8wOodvGfBfJ3/view?usp=drive_link" class="link">Resume </a>
+            <a href="./contact.html" class="link">Contact Me</a>
+          </div>
+        </div>
+        <div class="grid-2">
+          <div class="text-1">
+            <p
+              style="
+                text-align: left;
+                padding-left: 100px;
+                font-size: 42px;
+                font-weight: lighter;
+              "class="h"
+            >
+              Hey, I'm
+            </p>
+            <h1
+              style="
+                font-weight: bold;
+                font-size: 50px;
+                margin-top: 5px;
+                bottom: 500px;
+                font-weight: 900;
+              "
+              
+            >
+              Divyansh Lashkari
+            </h1>
+            <p
+              style="
+                font-weight: lighter;
+                bottom: 100px;
+                top: 110px;
+                color: black;
+                font-weight: 400;
+              "
+            >
+              Final year engineering student seeking a position in Computer<br />
+              Science to apply my skills and expertise in project<br />
+              implementation.
+            </p>
+            <div class="Achievements">
+                <h2 style="margin: 0;text-align: left; margin-bottom: 0px; position: relative; left: 24px; color: white; font-weight: bolder;">Achievements</h2>
+                <ol style="color: white; margin: 0; font-weight: lighter; ">
+                    <li>Solved 250 + DSA questions</li>
+                    <li>24th Instiutional Rank on GeeksForGeeks</li>
+                </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

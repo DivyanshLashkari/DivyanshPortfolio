@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lazord+Sans+Sans:wght@400;700&display=swap" />
+  <style>
+    body {
+      margin: 0;
+      font-family: "Lazord Sans Sans", sans-serif;
+      background-color: #f3f3f3;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: 0.75fr 2fr;
+    }
+
+    .grid-1 {
+      background-color: #ebd596;
+      padding: 20px;
+      text-align: center;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .circle-img {
+      height: 150px;
+      width: 150px;
+      border-radius: 50%;
+      background-color: #ebbe96;
+      margin-bottom: 20px;
+      overflow: hidden;
+    }
+
+    .circle-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+
+    .link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      color: #fff;
+      background-color: #5e5e5e;
+      border-radius: 30px;
+      padding: 10px 20px;
+      margin: 10px;
+      font-size: 16px;
+      width: 150px;
+      text-align: center;
+      transition: background-color 0.3s ease;
+    }
+
+    .link:hover {
+      background-color: #2980b9;
+    }
+
+    .grid-2 {
+      background-color: #ebbe96;
+      padding: 20px;
+      text-align: center;
+      display: flex;
+    }
+
+    .text-1 {
+      text-align: left;
+      padding-left: 100px;
+    }
+
+    h1 {
+      font-weight: bold;
+      font-size: 50px;
+      margin-top: 5px;
+      color: #393939;
+    }
+
+    .project {
+      margin-bottom: 30px;
+      background-color: #fff;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .project:hover {
+      transform: scale(1.02);
+    }
+
+    .project h2 {
+      font-weight: bold;
+      color: #393939;
+      margin-bottom: 10px;
+    }
+
+    .project p {
+      color: #666;
+      font-weight: lighter;
+    }
+
+    .project a {
+      display: inline-block;
+      text-decoration: none;
+      color: #fff;
+      background-color: #3498db;
+      border-radius: 30px;
+      padding: 10px 20px;
+      font-size: 16px;
+      width: 150px;
+      text-align: center;
+      transition: background-color 0.3s ease;
+      margin-top: 15px;
+    }
+
+    .project a:hover {
+      background-color: #2980b9;
+    }
+  </style>
+  <title>Personal Projects</title>
+</head>
+<body>
+  <section id="personal-projects" class="personal-projects">
+    <div class="container">
+      <div class="grid-1">
+        <div class="circle-img">
+          <img
+            src="./Screenshot_2024-01-07_162830-removebg-preview.png"
+            alt=""
+          />
+        </div>
+        <a href="./personalProjects.html" class="link">Personal Projects</a>
+        <a href="https://drive.google.com/file/d/1BPHJ8eVyk0ORUO0IXkVv8wOodvGfBfJ3/view?usp=drive_link" class="link">Resume </a>
+        <a href="./contact.html" class="link">Contact Me</a>
+      </div>
+      <div class="grid-2">
+        <div class="text-1">
+          <h1>Personal Projects</h1>
+          <div class="project">
+            <h2>EntitySYS</h2>
+            <p>EntitySYS is a robust Enterprise Management System designed for university automation. Crafted using
+                HTML, CSS, and JavaScript, with Django powering the backend, it seamlessly integrates administrative,
+                faculty, and student functionalities. This innovative project streamlines college processes, ensuring efficient
+                management and an enhanced user experience.<br></p>
+
+          </div>
+          <div class="project">
+            <h2>Multiple Disease Prediction</h2>
+            <p>Designed and developed a cutting-edge Disease Prediction System that utilizes the power of Machine
+                Learning (ML), Django, and Streamlit. The primary objective of this system is to assist healthcare
+                professionals in the detection and prediction of various diseases.<br></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
